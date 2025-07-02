@@ -1,0 +1,6 @@
+robot_info:
+  car_mode: mini_mec    # 小车型号,请与robotandlidar.launch.py中保持一致
+  BatteryCapacity: 5300 # 小车电池容量
+  diff_point: 1.2       # 寻找充电桩时,让小车导航到充电桩标定位置前x米
+  diff_angle: -15       # 寻找充电桩时,让小车与充电桩位置偏差x度
+  
